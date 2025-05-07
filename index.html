@@ -7,31 +7,45 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
         }
+
         header {
             background-color: #333;
             color: white;
-            padding: 15px 20px;
+            padding: 20px 0;
             text-align: center;
+            font-size: 24px;
+            letter-spacing: 1px;
         }
+
         nav {
             background-color: #444;
-            overflow: hidden;
+            display: flex;
+            justify-content: center;
         }
+
         nav a {
-            float: left;
-            display: block;
             color: white;
-            text-align: center;
             padding: 14px 20px;
             text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
         }
+
         nav a:hover {
-            background-color: #555;
+            background-color: #666;
         }
+
         .content {
-            padding: 20px;
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
         }
     </style>
 </head>
